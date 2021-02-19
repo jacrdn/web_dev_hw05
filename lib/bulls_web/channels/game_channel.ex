@@ -1,6 +1,6 @@
 defmodule BullsWeb.GameChannel do
   use BullsWeb, :channel
-
+# BASED THIS CODE ON NAT TUCK LECTURE CODE
   alias Bulls.Game
 
   @impl true
@@ -36,4 +36,7 @@ defmodule BullsWeb.GameChannel do
   defp authorized?(_payload) do
     true
   end
+  
+  # End Attribution
+  
 end
